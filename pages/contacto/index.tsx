@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Watssy - Watssy Shop</title>
+        <title>Contacto - Watssy Shop</title>
         <meta name="description" content="Watssy is a tool develop for ..." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             <Col>
               <Card color="primary">
                 <Text h6 size={15} color="white" css={{ m: 0 }}>
-                  1 of 2
+                  Contacto
                 </Text>
               </Card>
             </Col>

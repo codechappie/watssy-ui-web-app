@@ -1,3 +1,5 @@
+import { Container } from '@nextui-org/react'
+import Link from 'next/link'
 import React, { FC } from 'react'
 
 interface LayoutProps {
@@ -7,7 +9,16 @@ interface LayoutProps {
 const Layout: FC<LayoutProps> = ({ children }) => {
     return (
         <>
-            <div>Navbar</div>
+            <Container>
+                <nav>
+                    <Link href="/">
+                        <a>Home</a>
+                    </Link>
+                    <Link href="/contacto">
+                        <a>Contact</a>
+                    </Link>
+                </nav>
+            </Container>
             <main>
                 {children}
             </main>
